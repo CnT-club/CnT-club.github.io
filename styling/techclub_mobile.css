@@ -79,12 +79,12 @@
     }
 
     .newsletter_flex .left {
-        width: 80%;
+        width: 90%;
     }
 
     .newsletter_flex .right {
         justify-content: flex-start;
-        width: 60%;
+        width: 90%;
     }
 
     .left h1 {
@@ -99,7 +99,7 @@
     .btn_signup {
         margin-top: 2rem;
         padding: 0.49rem;
-        font-size: 5.4vmin;
+        font-size: 5.1vmin;
     }
 
     .news {
@@ -263,14 +263,41 @@
 
     .testinomial_slider_middle {
         width: 90%;
+        height: auto;
     }
 
     .slider_inner {
         padding: 0rem;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .slider_inner .test1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test1 .slider1, .test1 .slider2, .test1 .slider3 {
+        width: 60%;
+        margin-top: .4rem;
+        height: auto;
+    }
+
+    .slider1_box1 .up{
+        height: auto;
+    }
+
+    .slider1_box1, .slider2_box2, .slider3_box3{
+        height: auto;
+    }
+
+    .fa{
+        font-size: .5rem;
     }
 
     .ratings {
         font-size: 3vmin;
+        margin-bottom: 0rem;
     }
 
     /* Students Coordinator Section  */
@@ -289,7 +316,7 @@
     }
 
     .text {
-        margin-bottom: 0rem;
+        margin-bottom: .5rem;
         font-size: 2.82vmin;
     }
 
