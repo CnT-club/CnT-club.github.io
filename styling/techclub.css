@@ -244,7 +244,7 @@ body, html{
 
 .left p{
     font-size: 2.7vmin;
-    line-height: 1.4rem;
+    line-height: 1.4;
     color: #022F84;
     margin-top: .9rem;
     font-family: 'Roboto', sans-serif;
@@ -311,7 +311,7 @@ body, html{
     margin-top: 1rem;
     padding: 0rem .4rem;
     font-size: 2.8vmin;
-    line-height: 1.5rem;
+    line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
 .video{
@@ -319,6 +319,13 @@ body, html{
     justify-content: flex-end;
     align-items: center;
     width: 50%;
+
+}
+
+.video iframe{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
 }
 
 /* Our Team Section  */
@@ -337,7 +344,7 @@ body, html{
     color: #022F84;
     justify-content: center;
     font-size: 4.2vmin;
-    line-height: 2.1rem;
+    line-height: 1.4;
     margin-top: 1.9rem;
 }
 .subheading p{
@@ -381,7 +388,7 @@ body, html{
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.4;
     font-size: 2.8vmin;
     flex-direction: column;
     justify-content: center;
@@ -401,7 +408,7 @@ body, html{
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.4;
     font-size: 2.8vmin;
     flex-direction: column;
     justify-content: center;
@@ -412,7 +419,7 @@ body, html{
     width: 45%;
     color: white;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.4;
     font-size: 2.8vmin;
     /* flex-direction: column;
     justify-content: center;
@@ -443,7 +450,7 @@ body, html{
     width: 45%;
     color: white;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.4;
     font-size: 2.8vmin;
     flex-direction: column;
     justify-content: center;
@@ -516,7 +523,7 @@ body, html{
 }
 .camp1 p, .camp2 p, .camp3 p, .camp4 p{
     margin-top: .7rem;
-    line-height: 1.28rem;
+    line-height: 1.39;
 }
 
 .camp1 .right h3, .camp2 .right h3, .camp3 .right h3, .camp4 .right h3{
