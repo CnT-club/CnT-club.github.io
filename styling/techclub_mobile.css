@@ -129,7 +129,7 @@
     }
 
     .para_container .para p {
-        line-height: 1.40rem;
+        line-height: 1.30;
     font-size: 4.5vmin;
     }
 
@@ -140,8 +140,8 @@
     }
 
     .para_container .video iframe {
-        width: 95%;
-        height: 100%;
+        width: 100%;
+        height: 97%;
     }
 
     /* Glipses Section  */
@@ -151,7 +151,7 @@
 
     .subheading {
         font-size: 5.1vmin;
-    line-height: 1.56rem;
+        line-height: 1.50;
     }
 
     .subheading p {
@@ -179,7 +179,7 @@
     .team2 .desc,
     .team3 .desc {
         width: 100%;
-        line-height: 1.5rem;
+        line-height: 1.5;
         margin-top: .4rem;
         text-align: center;
         align-items: center;
@@ -194,7 +194,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        line-height: 1.5rem;
+        line-height: 1.5;
         margin-top: 0.4rem;
         text-align: center;
         align-items: center;
