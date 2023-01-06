@@ -40,11 +40,11 @@
     }
 
     .links-toggle {
-        transition: 0.4s;
+        transition: 0.65s ease;
         margin-top: -990px;
         background-color: rgb(86, 125, 137);
         flex-direction: column;
-        height: 40vh;
+        height: 30vh;
         width: 100%;
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
@@ -60,6 +60,12 @@
 
     .toggle-switch {
         margin-top: 0px;
+    }
+
+    /* Home Section  */
+
+    .home{
+        overflow-y: hidden;
     }
 
     /* Newsletter Section  */
@@ -140,7 +146,7 @@
     }
 
     .para_container .video iframe {
-        width: 100%;
+        width: 90%;
         height: 97%;
     }
 
@@ -292,7 +298,7 @@
     }
 
     .fa{
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     .ratings {
@@ -347,19 +353,19 @@
         width: 13%;
         height: 13%;
     }
-
+    
     .stteam1 h3,
     .stteam2 h3,
     .stteam3 h3,
     .stteam4 h3,
     .stteam5 h3,
     .stteam6 h3 {
-        font-size: 3.3vmin;
+        font-size: 3.93vmin;
         margin-bottom: 0.5rem;
     }
 
     .stteam p {
-        font-size: 2.2vmin;
+        font-size: 2.8vmin;
     }
 
     .stteam a {
@@ -373,6 +379,7 @@
     .stteam5,
     .stteam6 {
         margin-bottom: 1rem;
+        width: 46%;
     }
 
     .stteam {
@@ -382,6 +389,7 @@
     /* Teams  */
     .stteam {
         width: 96%;
+        flex-wrap: wrap;
     }
 
     .vertical_line {
