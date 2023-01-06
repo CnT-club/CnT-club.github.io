@@ -137,8 +137,8 @@ body, html{
 
 .gallery a{
     text-decoration: none;
-    background-color: rgb(224, 243, 236);
-    color: rgba(10, 61, 95, 0.923);
+    background-color: rgba(10, 61, 95, 0.923);
+    color: rgb(224, 243, 236);
     padding: .64rem;
     width: 17%;
     border-radius: .2rem;
@@ -177,9 +177,8 @@ body, html{
     box-shadow: 5px 2px 5px rgba(10, 61, 95, 0.923);
     background-color: rgba(255, 255, 255, 0);
     transition: 0.3s linear;
-    color: rgb(224, 243, 236);
-    border-color: rgb(224, 243, 236);
-    font-weight: 500;
+    color: rgba(7, 29, 43, 0.923);
+    font-weight: 600;
 }
 
 .change_text:after{
