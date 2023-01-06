@@ -137,8 +137,8 @@ body, html{
 
 .gallery a{
     text-decoration: none;
-    background-color: rgba(10, 61, 95, 0.923);
-    color: rgb(224, 243, 236);
+    background-color: rgb(224, 243, 236);
+    color: rgba(10, 61, 95, 0.923);
     padding: .64rem;
     width: 17%;
     border-radius: .2rem;
@@ -177,7 +177,8 @@ body, html{
     box-shadow: 5px 2px 5px rgba(10, 61, 95, 0.923);
     background-color: rgba(255, 255, 255, 0);
     transition: 0.3s linear;
-    /* color: rgba(10, 61, 95, 0.923); */
+    color: rgb(224, 243, 236);
+    border-color: rgb(224, 243, 236);
     font-weight: 500;
 }
 
@@ -185,8 +186,8 @@ body, html{
     content: '';
     animation: changetext 7s infinite linear;
     font-weight: 900;
-    text-shadow: 2px 2px 14px rgba(240, 227, 186, 0.993);
-    color: rgba(223, 173, 25, 0.993);
+    text-shadow: 2px 2px 14px rgba(247, 155, 181, 0.993);
+    color: rgba(234, 61, 136, 0.993);
 }
 
 @keyframes changetext{
