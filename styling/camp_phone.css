@@ -18,6 +18,11 @@
     padding: 1.2rem 1rem;
 }
 
+/* Camp Details  */
+.event_details{
+    overflow: hidden;
+}
+
 /* Slogan Section  */
 .slogan{
     flex-direction: column;
