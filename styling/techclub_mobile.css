@@ -16,7 +16,7 @@
         font-size: 9.2vmin;
         text-shadow: none;
     }
-    
+
     .change_text:after{
         text-shadow: 2px 2px 14px rgba(247, 192, 155, 0.993);
         color: rgba(244, 171, 87, 0.935);
@@ -358,7 +358,7 @@
         width: 13%;
         height: 13%;
     }
-    
+
     .stteam1 h3,
     .stteam2 h3,
     .stteam3 h3,

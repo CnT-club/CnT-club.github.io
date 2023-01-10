@@ -1,0 +1,103 @@
+
+@media only screen and (max-width:696px) {
+
+/* Navigation Section  */
+
+.navbar_up .logo{
+    width: 38%;
+}
+
+.navbar_up .schedule_links{
+    display: none;
+}
+
+/* Registration Section  */
+
+.registration .left{
+    width: 34%;
+    padding: 1.2rem 1rem;
+}
+
+/* Slogan Section  */
+.slogan{
+    flex-direction: column;
+    text-align: center;
+}
+
+.slogan h1{
+    margin: .5rem 0rem;
+}
+
+/* Bootcamp Journey Section  */
+.bootcamp_jrny{
+    width: 100%;
+    margin: 0px;
+}
+
+.bootcamp_jrny::after{
+    left: 32%;
+}
+
+.containe_left{
+    padding: 15px 0px;
+    left: 50.2%;
+}
+
+.containe_left .date{
+    left: -80%;
+    right: auto;
+}
+
+.containe_left::before{
+    left: -36%;
+    width: 50%;
+}
+
+.containe_left::after{
+    left: -42%;
+}
+
+.containe_left .content{
+    border-radius: 500px 0px 0px 500px;
+    margin-right: 0px;
+    padding: 20px 20px 20px 30px;
+}
+
+.containe_right {
+    padding: 15px 0px;
+}
+
+.containe_right .date{
+    left: -80%;
+}
+
+.containe_right::before{
+    left: -36%;
+    width: 50%;
+}
+
+.containe_right::after{
+    left: -42%;
+}
+
+.containe_right .content{
+    margin-left: 0px;
+    padding: 20px 20px 20px 30px;
+}
+
+/* Footer Section  */
+
+.footer .up img{
+    width: 10%;
+}
+
+.footer .down{
+    width: 70%;
+}
+
+.footer .down .line{
+    display: block;
+}
+
+} 
+
